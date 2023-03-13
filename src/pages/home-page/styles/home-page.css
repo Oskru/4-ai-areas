@@ -1,0 +1,117 @@
+body {
+  font-family: "DM Sans", "sans-serif";
+  color: var(--color-secondary);
+  font-weight: 400;
+  background: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-page {
+  width: 100%;
+}
+
+.block_ai_cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 19px;
+  padding: 19px 16px;
+}
+
+.block_ai_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start;
+  text-align: left;
+  width: 30rem;
+}
+
+.block_cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.block_cards_first_row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.block_cards_second_row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.block_card {
+  width: 240px;
+  height: 218px;
+  padding: 24px 16px;
+  margin: 0px 12px 24px 12px;
+  background: var(--color-secondary-navy);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 400px) {
+  .block_card {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 834px) {
+  .block_card {
+    width: 268px;
+    height: 240px;
+  }
+}
+
+.icon-background {
+  height: 64px;
+  width: 64px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.24;
+}
+.icon-background.icon-background--pink {
+  background: var(--color-primary-pink);
+}
+.icon-background.icon-background--blue {
+  background: var(--color-primary-blue);
+}
+.icon-background.icon-background--green {
+  background: var(--color-primary-green);
+}
+.icon-background.icon-background--yellow {
+  background: var(--color-primary-yellow);
+}
+
+.icon-image {
+  height: 64px;
+  width: 64px;
+  transform: scale(0.5);
+}
+.icon-image.icon-image--pink {
+  background: url("../../../../assets/images/icon-pink.png") no-repeat scroll center center transparent;
+}
+.icon-image.icon-image--blue {
+  background: url("../../../../assets/images/icon-blue.png") no-repeat scroll center center transparent;
+}
+.icon-image.icon-image--green {
+  background: url("../../../../assets/images/icon-green.png") no-repeat scroll center center transparent;
+}
+.icon-image.icon-image--yellow {
+  background: url("../../../../assets/images/icon-yellow.png") no-repeat scroll center center transparent;
+}
+
+/*# sourceMappingURL=home-page.css.map */

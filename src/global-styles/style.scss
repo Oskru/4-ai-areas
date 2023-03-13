@@ -1,0 +1,46 @@
+/// Main Styles File
+/// Here we import all the global Styles files we need for our project.
+
+@import "styles/normalize.scss";
+@import "styles/root.scss";
+@import "styles/fonts.scss";
+
+
+// Styles for desktop devices with screen width >= 1024px
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+// Styles for tablets/mobile devices with screen width < 1024px
+@media screen and (max-width: 1023px) {
+  body {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+
+/// Font weights: Medium: 500, Regular: 400
+
+h1 {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.2%;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.2%;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+}
